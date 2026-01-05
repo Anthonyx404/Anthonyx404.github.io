@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    
+    <!-- Music Control -->
+    <div class="music-control" id="musicControl">
+        <button class="music-btn" id="musicBtn">
+            <span class="play-icon">🎵</span>
+            <span class="pause-icon" style="display: none;">⏸️</span>
+        </button>
+    </div>
+    
+    <!-- Audio Element -->
+    <audio id="bgMusic" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+    
+    <div class="container">
+        <div class="envelope" id="envelope">
+            <div class="envelope-wrapper">
+                <div class="glow"></div>
+                <div class="envelope-base"></div>
+                <div class="envelope-flap"></div>
+                <div class="letter">
+                    <div class="letter-content">
+                        <h2>My Dearest Love <span class="heart">♥</span></h2>
+                        
+                        <div class="photo-container">
+                            <img src="couple-photo.jpg" alt="Our Beautiful Memory" class="couple-photo">
+                            <p class="photo-caption">Every moment with you is a treasure</p>
+                        </div>
+                        
+                        <p>In the quiet moments between heartbeats, I find myself thinking of you. Like stars in the night sky, your presence illuminates the darkness and guides me home.</p>
+                        
+                        <p>Every day with you feels like a gift wrapped in starlight. Your smile is my favorite constellation, and your laughter is the melody that plays in my heart.</p>
+                        
+                        <p>I want you to know that my love for you grows stronger with each passing moment. You are my dream come true, my safe harbor, and my greatest adventure all at once.</p>
+                        
+                        <p>Thank you for being you, for loving me, and for making every day feel magical. Under this starry sky, I promise to cherish you today, tomorrow, and always.</p>
+                        
+                        <div class="signature">
+                            Forever yours,<br>
+                            <span class="heart">♥</span> Your Love <span class="heart">♥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="instruction">Click the envelope to open ✨</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
